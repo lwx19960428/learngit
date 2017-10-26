@@ -1,0 +1,34 @@
+git学习命令
+    
+    # 初始化git目录
+    git init
+    
+    # 为readme.txt文件添加git版本控制
+    git add readme.txt
+    
+    # git提交，-m后跟提交信息说明
+    git commit -m "message"
+    
+    # 全局设置用户email
+    git config --global user.email "aaa@aaa.com"
+    
+    # 全局设置用户name
+    git config --global user.name "aaa"
+    
+    # 查看git仓库的当前状态，哪些已被修改，需要提交
+    git status
+    
+    # 查看对git版本文件的修改
+    git diff readme.txt
+    
+    # 显示git仓库的提交历史
+    git log
+        --pretty=oneline   将信息显示在一行
+    
+    # 回退git仓库版本
+    git reset
+        --hard HEAD^        # 表示回退至当前版本的上个版本，两个即为上上个版本，以此类推...
+        --hard HEAD~100     # 回退到当前版本的100个版本以前
+    
+    # 记录每一次版本变更的记录，可用来回到未来版本
+    git reflog
