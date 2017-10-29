@@ -9,4 +9,4 @@ add by liuwanxiang 2017-10-26 09:43:08
 git checkout -- readme.txt 
 this in master and feature1 branch.
 
-add by dev branch
+add by a dev branch
