@@ -7,4 +7,4 @@ Git has a mutable index called stage.
 Git tracks changes of files.
 add by liuwanxiang 2017-10-26 09:43:08
 git checkout -- readme.txt 
-this is master branch.
+this in master and feature1 branch.
